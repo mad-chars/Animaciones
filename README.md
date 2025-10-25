@@ -33,10 +33,10 @@ Capas y velocidades usadas: estrellas speed 0.25, montañas 1.3, ciudad 1.1, col
 Qué hace: capas lejanas se mueven más lento; cercanas más rápido → sensación de profundidad.
 Ajuste rápido: si la ciudad queda oculta sube city.base (edificios más altos) o baja hills.speed; para más profundidad, separa más las velocidades.
 Partículas de polvo
-Valores clave: spawn cuando |vel.x| > 2 y on_ground; vx ∈ [-0.5,0.5], vy ∈ [-1.0,-0.2], life = 22, tamaño 6x6.
+Valores clave: spawn cuando |vel.x| > 2 y on_ground; vx [-0.5,0.5], vy [-1.0,-0.2], life = 22, tamaño 6x6.
 Qué hace: rastro corto y ligero que se desvanece en ≈0.36 s.
 Ajuste rápido: más polvo → spawn 3–6 y life 35–60.
 Ciclo día/noche
-Valores clave: day_speed = 0.0005 (por ms), paletas day/night y overlay alpha máximo ≈ 60.
+Valores clave: day_speed = 0.0005, paletas day/night y overlay alpha máximo ≈ 60.
 Qué hace: interpola el gradiente y aplica overlay azul semitransparente para noche.
 Ajuste rápido: ciclo más lento → day_speed 0.00005; noche más oscura → overlay alpha 100–120.
